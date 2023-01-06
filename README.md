@@ -18,7 +18,7 @@ Section I : Load the data in
 
 Let's load in the dataset using Keras
 
-from keras.datasets import mnist 
+From keras.datasets import mnist 
 (trainsetX, trainsety),(testsetX,testsety) = mnist.load_data()
 print('Train: X = {}, y = {}'.format(trainsetX.shape, trainsety.shape)) 
 print('Test: X = {}, y = {}'.format(testsetX.shape, testsety.shape))
